@@ -43,5 +43,4 @@ TF_NEED_VERBS=0
 # Use nvcc for CUDA compiler
 TF_CUDA_CLANG=0
 
-
-source ./configure
+./configure

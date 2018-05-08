@@ -48,7 +48,7 @@ export TF_NEED_OPENCL_SYCL=0
 export TF_CUDA_CLANG=0
 # tensor rt
 export TF_NEED_TENSORRT=1
-export TF_TENSORRT_VERSION="3.0.4-1"
+export TF_TENSORRT_VERSION="3.0.2-1"
 export TENSORRT_INSTALL_PATH="/usr/lib/aarch64-linux-gnu"
 export TF_NCCL_VERSION="1"
 

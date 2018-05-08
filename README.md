@@ -13,6 +13,12 @@ cd /usr/local/cuda/samples/1_Utilities/deviceQuery
 
 tensorflow/configure.py
 
+## check TensorRT version
+
+```bash
+dpkg -l | grep TensorRT
+```
+
 ## For Python 3.5
 
 ```bash

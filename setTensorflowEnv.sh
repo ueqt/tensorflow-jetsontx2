@@ -46,5 +46,8 @@ export TF_NEED_GDR=0
 export TF_NEED_OPENCL_SYCL=0
 # Use nvcc for CUDA compiler
 export TF_CUDA_CLANG=0
+# tensor rt
+export TF_TENSORRT_VERSION="3.0.4-1"
+export TENSORRT_INSTALL_PATH="/usr/lib/aarch64-linux-gnu"
 
 ./configure

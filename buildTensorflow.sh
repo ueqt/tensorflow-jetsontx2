@@ -1,5 +1,5 @@
 sudo cp /usr/local/cuda-8.0/nvvm/libdevice/libdevice.compute_50.10.bc /usr/local/cuda-8.0/nvvm/libdevice/libdevice.10.bc
-cp /usr/local/cuda-8.0/nvvm/libdevice/libdevice.10.bc /usr/local/cuda-8.0/libdevice.10.bc
+sudo cp /usr/local/cuda-8.0/nvvm/libdevice/libdevice.10.bc /usr/local/cuda-8.0/libdevice.10.bc
 
 export TF_NEED_CUDA=1
 export TF_CUDA_VERSION=9.0

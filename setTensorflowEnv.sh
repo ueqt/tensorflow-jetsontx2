@@ -41,6 +41,7 @@ export TF_ENABLE_XLA=0
 export TF_NEED_MKL=0
 export TF_NEED_MPI=0
 export TF_NEED_VERBS=0
+export TF_NEED_S3=0
 # Use nvcc for CUDA compiler
 export TF_CUDA_CLANG=0
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-#NVIDIA Jetson TX1
+# NVIDIA Jetson TX1
 # Create a swap file and set up permissions
 # If a parameter is passed, it should be the place to create the swapfile
 SWAPDIRECTORY=$PWD

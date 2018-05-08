@@ -12,6 +12,7 @@ sudo cp /usr/include/cudnn.h /usr/lib/aarch64-linux-gnu/include/cudnn.h
 # PYTHON Path is the default
 default_python_bin_path=$(which python3)
 export PYTHON_BIN_PATH=$default_python_bin_path
+export PYTHON_LIB_PATH=/usr/local/lib/python3.5/dist-packages
 # No Google Cloud Platform support
 export TF_NEED_GCP=0
 # No Hadoop file system support

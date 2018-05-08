@@ -9,6 +9,10 @@ cd /usr/local/cuda/samples/1_Utilities/deviceQuery
 ./deviceQuery
 ```
 
+## configure
+
+tensorflow/configure.py
+
 ## For Python 3.5
 
 ```bash

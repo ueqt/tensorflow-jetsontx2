@@ -2,6 +2,13 @@
 
 TensorFlow for Nvidia Jetson TX2
 
+## GPU info
+
+```bash
+cd /usr/local/cuda/samples/1_Utilities/deviceQuery
+./deviceQuery
+```
+
 ## For Python 3.5
 
 ```bash

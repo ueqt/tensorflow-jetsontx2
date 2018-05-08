@@ -23,7 +23,7 @@ export TF_NEED_CUDA=1
 default_gcc_host_compiler_path=$(which gcc)
 export GCC_HOST_COMPILER_PATH=$default_gcc_host_compiler_path
 # TF CUDA Version
-export TF_CUDA_VERSION=9.0
+export TF_CUDA_VERSION=8.0
 # CUDA path
 default_cuda_path=/usr/local/cuda
 export CUDA_TOOLKIT_PATH=$default_cuda_path
